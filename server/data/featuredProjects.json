@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Serene Minimalism",
+    "description": "Contemporary living space with natural elements",
+    "imageUrl": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "2",
+    "title": "Modern Elegance",
+    "description": "Luxury kitchen with premium materials",
+    "imageUrl": "https://images.unsplash.com/photo-1617806118233-18e1de247200?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "3",
+    "title": "Tranquil Retreat",
+    "description": "Serene bedroom designed for ultimate relaxation",
+    "imageUrl": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  }
+]

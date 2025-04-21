@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Montserrat:wght@500;600&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 96%;
+    --foreground: 0 0% 13%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 13%;
+
+    --primary: 0 0% 23%; /* #3A3A3A */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 32 21% 79%; /* #D4C8BE */
+    --secondary-foreground: 0 0% 13%;
+
+    --accent: 31 28% 51%; /* #A67F5D */
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 32 21% 85%;
+    --input: 0 0% 93%;
+    --ring: 31 28% 51%;
+
+    --radius: 0.5rem;
+  }
+ 
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#F5F5F5] text-[#212121] scroll-smooth font-inter;
+  }
+
+  /* Navigation link styling */
+  .nav-link {
+    position: relative;
+  }
+
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: hsl(var(--accent));
+    transition: width 0.3s ease;
+  }
+
+  .nav-link:hover::after, .nav-link.active::after {
+    width: 100%;
+  }
+
+  /* Hover effects for catalogue items */
+  .catalogue-item:hover .catalogue-overlay {
+    opacity: 1;
+  }
+
+  /* Detail image hover effect */
+  .detail-image-container:hover .detail-image-overlay {
+    opacity: 1;
+  }
+
+  /* Fade in animation */
+  .fade-in {
+    animation: fadeIn 0.8s ease forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
