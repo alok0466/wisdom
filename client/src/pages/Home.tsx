@@ -24,7 +24,7 @@ const Home = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <AboutSection />
             <PhilosophySection />
-            <TeamSection />
+            {/* <TeamSection /> */}
           </div>
         </section>
         

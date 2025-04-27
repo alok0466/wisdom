@@ -72,8 +72,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       await transporter.sendMail({
         from: `"${name}" <${email}>`,
-        to: email,
-        subject: `New message from ${name}`,
+        to: 'Urbanvision73@gmail.com',
+        subject: `New enquiry message from ${name}`,
         text: message,
         html: `
           <p>New contact form submission</p>

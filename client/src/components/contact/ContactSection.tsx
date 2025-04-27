@@ -8,9 +8,7 @@ import {
   Mail,
   Clock,
   Instagram,
-  Linkedin,
-  Home,
-  HelpCircle
+  MessageSquare, // <-- added MessageSquare for WhatsApp icon
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -85,30 +83,31 @@ const ContactSection = () => {
     {
       icon: <MapPin className="text-accent" />,
       title: "Address",
-      details: "123 Design Avenue, Suite 500\nNew York, NY 10001",
+      details: "Harshdeep Business park 1st floor Nanakheda\nUjjain, 456010\nMadhya Pradesh, India",
     },
     {
       icon: <Phone className="text-accent" />,
       title: "Phone",
-      details: "+1 (212) 555-6789",
+      details: "+91 7354834306",
     },
     {
       icon: <Mail className="text-accent" />,
       title: "Email",
-      details: "info@UrbanVisiondesign.com",
+      details: "Urbanvision73@gmail.com",
     },
     {
       icon: <Clock className="text-accent" />,
       title: "Hours",
-      details: "Monday - Friday: 9am - 6pm\nSaturday: 10am - 4pm\nSunday: Closed",
+      details: "Monday - Saturday: 9am - 8pm\nSunday: Closed",
     },
   ];
 
   const socialLinks = [
     { icon: <Instagram size={18} />, href: "https://instagram.com" },
-    { icon: <Linkedin size={18} />, href: "https://linkedin.com" },
-    { icon: <Home size={18} />, href: "https://houzz.com" },
-    { icon: <HelpCircle size={18} />, href: "https://pinterest.com" },
+    { 
+      icon: <MessageSquare size={18} />, 
+      href: "https://wa.me/917354834306?text=Hi%20I%20am%20interested%20in%20your%20services" 
+    },
   ];
 
   return (
@@ -245,6 +244,7 @@ const ContactSection = () => {
                   ))}
                 </div>
               </div>
+
             </div>
           </div>
         </div>
