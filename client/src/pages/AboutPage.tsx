@@ -7,8 +7,8 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>About | LUMINA Interior Design</title>
-        <meta name="description" content="Learn about LUMINA Interior Design, our story, philosophy, and team of dedicated designers." />
+        <title>About | UrbanVision Interior Design</title>
+        <meta name="description" content="Learn about UrbanVision Interior Design, our story, philosophy, and team of dedicated designers." />
       </Helmet>
       
       <main className="pt-24">

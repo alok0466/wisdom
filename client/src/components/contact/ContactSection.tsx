@@ -2,10 +2,10 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
+import {
+  MapPin,
+  Phone,
+  Mail,
   Clock,
   Instagram,
   Linkedin,
@@ -37,7 +37,7 @@ type FormValues = z.infer<typeof formSchema>;
 const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
-  
+
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -50,16 +50,25 @@ const ContactSection = () => {
 
   const onSubmit = async (data: FormValues) => {
     setIsSubmitting(true);
-    
+
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send email');
+      }
+
       toast({
         title: "Message sent!",
         description: "We'll get back to you as soon as possible.",
       });
-      
+
       form.reset();
     } catch (error) {
       toast({
@@ -86,7 +95,7 @@ const ContactSection = () => {
     {
       icon: <Mail className="text-accent" />,
       title: "Email",
-      details: "info@luminadesign.com",
+      details: "info@UrbanVisiondesign.com",
     },
     {
       icon: <Clock className="text-accent" />,
@@ -111,7 +120,7 @@ const ContactSection = () => {
           <div className="w-24 h-px bg-accent mx-auto my-6"></div>
           <p className="text-darkText/70">Ready to transform your space? Reach out to us to discuss your project or schedule a consultation.</p>
         </div>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <Form {...form}>
@@ -124,8 +133,8 @@ const ContactSection = () => {
                       <FormItem>
                         <FormLabel className="block text-sm font-montserrat text-primary mb-2">Name</FormLabel>
                         <FormControl>
-                          <Input 
-                            {...field} 
+                          <Input
+                            {...field}
                             placeholder="Your Name"
                             className="w-full px-4 py-3 border border-secondary/30 focus:border-accent focus:outline-none bg-transparent transition-colors"
                           />
@@ -134,7 +143,7 @@ const ContactSection = () => {
                       </FormItem>
                     )}
                   />
-                  
+
                   <FormField
                     control={form.control}
                     name="email"
@@ -142,8 +151,8 @@ const ContactSection = () => {
                       <FormItem>
                         <FormLabel className="block text-sm font-montserrat text-primary mb-2">Email</FormLabel>
                         <FormControl>
-                          <Input 
-                            {...field} 
+                          <Input
+                            {...field}
                             placeholder="Your Email"
                             className="w-full px-4 py-3 border border-secondary/30 focus:border-accent focus:outline-none bg-transparent transition-colors"
                           />
@@ -153,7 +162,7 @@ const ContactSection = () => {
                     )}
                   />
                 </div>
-                
+
                 <FormField
                   control={form.control}
                   name="subject"
@@ -161,8 +170,8 @@ const ContactSection = () => {
                     <FormItem>
                       <FormLabel className="block text-sm font-montserrat text-primary mb-2">Subject</FormLabel>
                       <FormControl>
-                        <Input 
-                          {...field} 
+                        <Input
+                          {...field}
                           placeholder="Subject"
                           className="w-full px-4 py-3 border border-secondary/30 focus:border-accent focus:outline-none bg-transparent transition-colors"
                         />
@@ -171,7 +180,7 @@ const ContactSection = () => {
                     </FormItem>
                   )}
                 />
-                
+
                 <FormField
                   control={form.control}
                   name="message"
@@ -179,8 +188,8 @@ const ContactSection = () => {
                     <FormItem>
                       <FormLabel className="block text-sm font-montserrat text-primary mb-2">Message</FormLabel>
                       <FormControl>
-                        <Textarea 
-                          {...field} 
+                        <Textarea
+                          {...field}
                           rows={6}
                           placeholder="Your Message"
                           className="w-full px-4 py-3 border border-secondary/30 focus:border-accent focus:outline-none bg-transparent transition-colors resize-none"
@@ -190,9 +199,9 @@ const ContactSection = () => {
                     </FormItem>
                   )}
                 />
-                
-                <Button 
-                  type="submit" 
+
+                <Button
+                  type="submit"
                   disabled={isSubmitting}
                   className="w-full px-8 py-4 bg-accent text-white font-montserrat text-sm tracking-wider hover:bg-accent/90 transition-colors"
                 >
@@ -201,11 +210,11 @@ const ContactSection = () => {
               </form>
             </Form>
           </div>
-          
+
           <div>
             <div className="bg-neutral p-8 h-full">
               <h3 className="font-playfair text-2xl font-medium text-primary mb-6">Our Information</h3>
-              
+
               <div className="space-y-6">
                 {contactInfo.map((item, index) => (
                   <div key={index} className="flex items-start">
@@ -219,15 +228,15 @@ const ContactSection = () => {
                   </div>
                 ))}
               </div>
-              
+
               <div className="mt-8">
                 <h4 className="font-montserrat text-sm font-medium uppercase text-primary mb-4">Follow Us</h4>
                 <div className="flex space-x-4">
                   {socialLinks.map((link, index) => (
-                    <a 
+                    <a
                       key={index}
-                      href={link.href} 
-                      target="_blank" 
+                      href={link.href}
+                      target="_blank"
                       rel="noreferrer"
                       className="w-10 h-10 bg-secondary/30 rounded-full flex items-center justify-center text-primary hover:bg-accent hover:text-white transition-colors"
                     >

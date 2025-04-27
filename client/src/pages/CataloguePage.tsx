@@ -5,7 +5,7 @@ const CataloguePage = () => {
   return (
     <>
       <Helmet>
-        <title>Catalogue | LUMINA Interior Design</title>
+        <title>Catalogue | UrbanVision Interior Design</title>
         <meta name="description" content="Browse our collection of curated interior designs across different styles and spaces." />
       </Helmet>
       

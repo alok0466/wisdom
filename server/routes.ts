@@ -3,6 +3,8 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import fs from "fs";
 import path from "path";
+import nodemailer from 'nodemailer';
+
 
 // Read JSON data files
 const catalogueItemsPath = path.join(import.meta.dirname, "data", "catalogueItems.json");
@@ -55,6 +57,38 @@ export async function registerRoutes(app: Express): Promise<Server> {
     res.json(teamMembers);
   });
 
+  app.post('/api/send-email', async (req, res) => {
+    const { name, email, message } = req.body;
+  
+    // Create transporter
+    const transporter = nodemailer.createTransport({
+      service: 'gmail', // or your SMTP provider
+      auth: {
+        user: 'hindic830@gmail.com',
+        pass: 'wxudywfocrfbsosi',
+      },
+    });
+  
+    try {
+      await transporter.sendMail({
+        from: `"${name}" <${email}>`,
+        to: email,
+        subject: `New message from ${name}`,
+        text: message,
+        html: `
+          <p>New contact form submission</p>
+          <p><strong>Name:</strong> ${name}</p>
+          <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Message:</strong> ${message}</p>
+        `,
+      });
+  
+      res.status(200).json({ success: true });
+    } catch (error) {
+      console.error('Email send error:', error);
+      res.status(500).json({ error: 'Failed to send email' });
+    }
+  }); 
   const httpServer = createServer(app);
 
   return httpServer;

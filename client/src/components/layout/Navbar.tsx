@@ -42,7 +42,7 @@ const Navbar = () => {
         <nav className="flex justify-between items-center">
           <Link href="/">
             <a className="text-2xl font-playfair font-semibold text-primary tracking-wider">
-              LUMINA
+              UrbanVision
             </a>
           </Link>
           

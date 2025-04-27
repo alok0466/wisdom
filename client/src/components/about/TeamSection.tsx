@@ -13,7 +13,7 @@ const TeamSection = () => {
         <span className="text-accent font-montserrat text-sm tracking-wider uppercase">The Experts</span>
         <h2 className="font-playfair text-3xl md:text-4xl font-semibold text-primary mt-2">Our Team</h2>
         <div className="w-24 h-px bg-accent mx-auto my-6"></div>
-        <p className="text-darkText/70">Meet the talented individuals who bring our vision to life and make LUMINA a leader in interior design.</p>
+        <p className="text-darkText/70">Meet the talented individuals who bring our vision to life and make UrbanVision a leader in interior design.</p>
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -11,8 +11,8 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>LUMINA | Interior Design Studio</title>
-        <meta name="description" content="LUMINA Interior Design Studio - Crafting spaces that inspire" />
+        <title>UrbanVision | Interior Design Studio</title>
+        <meta name="description" content="UrbanVision Interior Design Studio - Crafting spaces that inspire" />
       </Helmet>
       
       <main>

@@ -22,15 +22,15 @@ const AboutSection = () => {
       
       <div>
         <span className="text-accent font-montserrat text-sm tracking-wider uppercase">Our Story</span>
-        <h2 className="font-playfair text-3xl md:text-4xl font-semibold text-primary mt-2">About LUMINA</h2>
+        <h2 className="font-playfair text-3xl md:text-4xl font-semibold text-primary mt-2">About UrbanVision</h2>
         <div className="w-16 h-px bg-accent my-6"></div>
         
         <div className="prose prose-lg max-w-none text-darkText/80">
-          <p>LUMINA was founded in 2008 with a simple yet powerful mission: to create interiors that inspire and enhance the human experience. We believe that thoughtful design has the power to transform not just spaces, but lives.</p>
+          <p>UrbanVision was founded in 2008 with a simple yet powerful mission: to create interiors that inspire and enhance the human experience. We believe that thoughtful design has the power to transform not just spaces, but lives.</p>
           
           <p>Our team of passionate designers brings together diverse backgrounds and perspectives, united by a shared commitment to excellence and innovation. We approach each project as a unique opportunity to tell a story through space, light, texture, and form.</p>
           
-          <p>At LUMINA, we don't just design interiors – we craft experiences that reflect the personality, needs, and aspirations of our clients. From concept to completion, we work closely with you to ensure that every detail aligns with your vision.</p>
+          <p>At UrbanVision, we don't just design interiors – we craft experiences that reflect the personality, needs, and aspirations of our clients. From concept to completion, we work closely with you to ensure that every detail aligns with your vision.</p>
         </div>
         
         <div className="mt-8">

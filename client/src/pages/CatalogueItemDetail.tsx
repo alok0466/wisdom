@@ -91,7 +91,7 @@ const CatalogueItemDetail = () => {
   return (
     <>
       <Helmet>
-        <title>{item.title} | LUMINA Interior Design</title>
+        <title>{item.title} | UrbanVision Interior Design</title>
         <meta name="description" content={item.description.substring(0, 160)} />
       </Helmet>
       
@@ -182,12 +182,7 @@ const CatalogueItemDetail = () => {
                     INQUIRE ABOUT THIS STYLE
                   </Button>
                 </Link>
-                <Button 
-                  variant="outline" 
-                  className="px-8 py-3 border border-primary text-primary font-montserrat text-sm tracking-wider hover:bg-primary/5 transition-colors"
-                >
-                  SAVE TO FAVORITES
-                </Button>
+              
               </div>
             </div>
           </div>
