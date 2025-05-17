@@ -3,6 +3,7 @@ export interface FeaturedProject {
   title: string;
   description: string;
   imageUrl: string;
+  pdfUrl: string;
 }
 
 export interface CatalogueItem {
@@ -10,6 +11,8 @@ export interface CatalogueItem {
   title: string;
   category: string;
   imageUrl: string;
+  pdfUrl: string;
+
 }
 
 export interface CatalogueItemDetail {
@@ -18,6 +21,7 @@ export interface CatalogueItemDetail {
   category: string;
   description: string;
   mainImage: string;
+  pdfUrl: string;
   additionalImages: string[];
   designElements: string[];
   projectDetails: {

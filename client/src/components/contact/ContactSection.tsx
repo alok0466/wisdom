@@ -103,7 +103,7 @@ const ContactSection = () => {
   ];
 
   const socialLinks = [
-    { icon: <Instagram size={18} />, href: "https://instagram.com" },
+    { icon: <Instagram size={18} />, href: "https://instagram.com/Urban_vision73" },
     { 
       icon: <MessageSquare size={18} />, 
       href: "https://wa.me/917354834306?text=Hi%20I%20am%20interested%20in%20your%20services" 

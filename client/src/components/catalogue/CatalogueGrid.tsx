@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import CatalogueItem from "./CatalogueItem";
 import { CatalogueItem as CatalogueItemType } from "@/lib/types";
 
-type CategoryFilter = "All" | "Living Room" | "Kitchen" | "Bedroom" | "Office" | "Bathroom";
+type CategoryFilter = "All" | "Mark Decor" | "Meridian" | "Decoraids" | "PU Panel" | "Hardware";
 
 const CatalogueGrid = () => {
   const [activeFilter, setActiveFilter] = useState<CategoryFilter>("All");
@@ -42,7 +42,7 @@ const CatalogueGrid = () => {
         
         {/* Filters */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {(["All", "Living Room", "Kitchen", "Bedroom", "Office", "Bathroom"] as CategoryFilter[]).map((filter) => (
+          {(["All", "Mark Decor", "Meridian", "Decoraids", "PU Panel", "Hardware"] as CategoryFilter[]).map((filter) => (
             <Button 
               key={filter}
               variant={activeFilter === filter ? "default" : "outline"}

@@ -1,15 +1,16 @@
 [
   {
     "id": "1",
-    "title": "Scandinavian Living",
-    "category": "Living Room",
-    "imageUrl": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    "title": "Mark Decor",
+    "category": "Acoustic panels",
+    "pdfUrl": "https://drive.google.com/file/d/1fFO3w5qcfFJ-Bo8PLQhvm37ggCpkleTh/view?usp=sharing",
+    "imageUrl": "https://i.postimg.cc/k4q4nKPv/1-2.jpg",
     "description": "This Scandinavian-inspired living space embodies the perfect balance between comfort and aesthetic appeal. The design celebrates natural light and organic materials while maintaining a clean, uncluttered environment.\n\nKey features include a neutral color palette enhanced with subtle textures, iconic mid-century furniture pieces, and thoughtfully curated accessories that add character without overwhelming the space.",
-    "mainImage": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+    "mainImage": "https://i.postimg.cc/PqmJsK9q/2-1.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1617103996702-96ff29b1c467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1601760562234-9814eea989c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+      "https://i.postimg.cc/PqmJsK9q/2-1.jpg",
+      "https://i.postimg.cc/W4RzHx9K/3.jpg",
+      "https://i.postimg.cc/nzJsCNB7/4.jpg"
     ],
     "designElements": [
       "White oak flooring with matte finish",
@@ -19,7 +20,7 @@
       "Statement pendant lighting with warm-toned bulbs"
     ],
     "projectDetails": {
-      "Location": "Stockholm, Sweden",
+      "Location": "Meridian",
       "Size": "75 sq meters",
       "Completion": "September 2023",
       "Style": "Modern Scandinavian"
@@ -27,15 +28,16 @@
   },
   {
     "id": "2",
-    "title": "Contemporary Kitchen",
-    "category": "Kitchen",
-    "imageUrl": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    "title": "Meridian",
+    "pdfUrl": "https://example.com/brochure.pdf",
+    "category": "Meridian Furniture",
+    "imageUrl": "https://i.postimg.cc/htrxP69w/1-3.jpg",
     "description": "This contemporary kitchen design marries functionality with sophisticated aesthetics. The space features clean lines, premium materials, and innovative storage solutions to create a chef's haven that's equally suited for casual family meals and elegant entertaining.\n\nThe meticulous planning ensures that every element serves a purpose while contributing to the overall visual harmony of the space.",
-    "mainImage": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+    "mainImage": "https://i.postimg.cc/htrxP69w/1-3.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1574180566232-aaad1b5b8450?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+      "https://i.postimg.cc/521LJbFL/2-2.jpg",
+      "https://i.postimg.cc/GhvG6H9b/3-1.jpg",
+      "https://i.postimg.cc/sX85CWpg/4-1.jpg"
     ],
     "designElements": [
       "Italian marble countertops with waterfall edge",
@@ -53,15 +55,16 @@
   },
   {
     "id": "3",
-    "title": "Minimalist Bedroom",
-    "category": "Bedroom",
-    "imageUrl": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    "title": "Decoraids",
+    "pdfUrl": "https://drive.google.com/file/d/1xQvRIQXMlciEIAsa1Bp91jzwHZnoJGX4/view?usp=sharing",
+    "category": "decorative wall panels and ceiling tiles",
+    "imageUrl": "https://i.postimg.cc/gjkS2J3H/1-4.jpg",
     "description": "This minimalist bedroom creates a tranquil sanctuary through thoughtful restraint. The design emphasizes quality over quantity, with each element carefully selected to contribute to an atmosphere of calm and relaxation.\n\nThe space demonstrates how simplicity, when executed with intention, can result in profound luxury and comfort.",
-    "mainImage": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+    "mainImage": "https://i.postimg.cc/0jWtMsfR/2-3.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1617325247956-50d3420060de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+      "https://i.postimg.cc/76Nt47JL/3-2.jpg",
+      "https://i.postimg.cc/1tS7bMtT/4-2.jpg",
+      "https://i.postimg.cc/FRtXzjKg/5.jpg"
     ],
     "designElements": [
       "Organic cotton and linen bedding in neutral tones",
@@ -79,34 +82,9 @@
   },
   {
     "id": "4",
-    "title": "Industrial Workspace",
-    "category": "Office",
-    "imageUrl": "https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
-    "description": "This industrial workspace balances raw architectural elements with thoughtful design interventions to create a productive and inspiring environment. The design embraces the building's original character while introducing contemporary comforts and functionality.\n\nThe result is a space that stimulates creativity while providing practical solutions for modern work requirements.",
-    "mainImage": "https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-    "additionalImages": [
-      "https://images.unsplash.com/photo-1519642918688-7e43b19245d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1498409785966-ab341407de6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
-    ],
-    "designElements": [
-      "Exposed brick walls preserved and sealed",
-      "Custom metal and reclaimed wood furniture",
-      "Adjustable task lighting with vintage-inspired fixtures",
-      "Modular storage systems with industrial hardware",
-      "Acoustic treatment disguised as architectural elements"
-    ],
-    "projectDetails": {
-      "Location": "Brooklyn, New York",
-      "Size": "120 sq meters",
-      "Completion": "November 2022",
-      "Style": "Modern Industrial"
-    }
-  },
-  {
-    "id": "5",
-    "title": "Bohemian Living",
-    "category": "Living Room",
+    "title": "PU Panel",
+    "pdfUrl": "https://example.com/brochure.pdf",
+    "category": "Wall Cladding,Ceiling Panels,Headboards or Backdrops",
     "imageUrl": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     "description": "This bohemian living space celebrates cultural fusion and artistic expression. The design incorporates global influences, layered textures, and a rich color palette to create a space that feels both curated and comfortably lived-in.\n\nRather than following rigid design rules, this space embraces the beauty of imperfection and personal expression.",
     "mainImage": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
@@ -130,29 +108,30 @@
     }
   },
   {
-    "id": "6",
-    "title": "Spa-like Bathroom",
-    "category": "Bathroom",
-    "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
-    "description": "This spa-inspired bathroom transforms daily routines into luxurious rituals. The design prioritizes sensory pleasure and wellness through carefully selected materials, thoughtful spatial planning, and attention to both aesthetic and functional details.\n\nEvery element works in harmony to create an atmosphere of tranquility and indulgence.",
-    "mainImage": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+    "id": "5",
+    "title": "Hardware",
+    "pdfUrl": "https://drive.google.com/file/d/1RiNnmvldQgBi1DGYHgKmCS09kCW7DwXF/view?usp=sharing",
+    "category": "Knobs and Pulls,Hinges,Drawer Slides",
+    "imageUrl": "https://i.postimg.cc/MKWLtzrS/1-5.jpg",
+    "description": "This industrial workspace balances raw architectural elements with thoughtful design interventions to create a productive and inspiring environment. The design embraces the building's original character while introducing contemporary comforts and functionality.\n\nThe result is a space that stimulates creativity while providing practical solutions for modern work requirements.",
+    "mainImage": "https://i.postimg.cc/7h4WF4HS/2-4.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+      "https://i.postimg.cc/kMNZx2ss/3-3.jpg",
+      "https://i.postimg.cc/MKWLtzrS/1-5.jpg",
+      "https://i.postimg.cc/vm1k9X2x/4-3.jpg"
     ],
     "designElements": [
-      "Freestanding soaking tub with floor-mounted fixtures",
-      "Large-format porcelain tiles with minimal grout lines",
-      "Rainfall shower with additional body jets",
-      "Custom floating vanity with integrated lighting",
-      "Heated flooring and towel warmers for comfort"
+      "Exposed brick walls preserved and sealed",
+      "Custom metal and reclaimed wood furniture",
+      "Adjustable task lighting with vintage-inspired fixtures",
+      "Modular storage systems with industrial hardware",
+      "Acoustic treatment disguised as architectural elements"
     ],
     "projectDetails": {
-      "Location": "Vancouver, Canada",
-      "Size": "25 sq meters",
-      "Completion": "December 2022",
-      "Style": "Contemporary Spa"
+      "Location": "Brooklyn, New York",
+      "Size": "120 sq meters",
+      "Completion": "November 2022",
+      "Style": "Modern Industrial"
     }
   }
 ]
